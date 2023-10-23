@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+html {
+    background-image: url(/img/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    position: relative;
+}
+
+.container {
+    border: none;
+    background-color: rgba(53, 143, 113, 0.4);
+    padding: 10px;
+    width: 50%;
+    height: 80vh;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    display: grid;
+    align-items: start;
+}
+
+.discription h1, p {
+    color: black;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+}
+    
+.play {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.play button {
+    background-color: black;
+    text-decoration: black;
+    color: white;
+    width: 200px;
+    height: 75px;
+    margin: auto;
+}
+
+.play button a:visited {
+    color: white;
+}

@@ -4,7 +4,7 @@
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-html {
+body, html{
     background-image: url(/img/bg.png);
     background-position: center;
     background-repeat: no-repeat;
@@ -32,6 +32,11 @@ html {
     text-align: center;
     width: 50%;
     margin: auto;
+}
+
+img {
+    margin: auto;
+    background-color: white;
 }
     
 .play {

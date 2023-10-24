@@ -13,7 +13,7 @@ body, html {
   
 .bg-container{
     /* The image used */
-    background-image: url("/img/darkroom.jpg");
+    background-image: url("./img/darkroom.jpg");
     /* Full height */
     height: 100%; 
     /* Center and scale the image nicely */
